@@ -35,16 +35,16 @@ const About = () => {
       <ul className="list-disc pl-5 mt-3">
         <li className="mt-1">
           GitHub:{" "}
-          <Link target="_blank" href={"https://github.com/ShiveshNandan"}>
+          <Link target="_blank" href={"https://github.com/MunbaBataa"}>
             {" "}
             <span className="underline underline-offset-2 text-sky-600 dark:text-sky-500 font-[500]">
-              @ShiveshNandan
+              @MunbaBataa
             </span>
           </Link>
         </li>
         <li className="mt-1">
           Instagram:{" "}
-          <Link target="_blank" href={"https://instagram.com/shivesh_nandan"}>
+          <Link target="_blank" href={"https://instagram.com/_munkhbat_"}>
             {" "}
             <span className="underline underline-offset-2 text-sky-600 dark:text-sky-500 font-[500]">
               @shivesh_nandan
@@ -53,7 +53,7 @@ const About = () => {
         </li>
         <li className="mt-1">
           Twitter:{" "}
-          <Link target="_blank" href={"https://github.com/ShiveshNandan"}>
+          <Link target="_blank" href={"https://github.com/MunbaBataa"}>
             {" "}
             <span className="underline underline-offset-2 text-sky-600 dark:text-sky-500 font-[500]">
               @ShiveshNandan
@@ -90,7 +90,7 @@ const About = () => {
           University school of information communication and technology, GGSIPU
         </p>
         <p className="flex relative justify-end italic text-xs my-2">
-          current CGPA: 7.46(till 5 semester)
+          current CGPA: 3.14(till 8 semester)
         </p>
       </div>
       <div className="flex flex-col text-left">

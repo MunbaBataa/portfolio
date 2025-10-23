@@ -25,7 +25,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import AnimatedBackground from "./AnimatedBackground";
 const Home = () => {
   const [Start, setStart] = useState(false);
   const [isModalOpen, setModalOpen] = useState(false);
@@ -66,6 +66,7 @@ const Home = () => {
 
   return (
     <div className="px-8 overflow-hidden lg:w-[750px] lg:m-auto z-[-1]">
+      <AnimatedBackground />
       {!Start ? (
         ""
       ) : (
@@ -88,10 +89,10 @@ const Home = () => {
                   sequence={[
                     "Engineer",
                     2000,
-                    "MERN stack developer",
+                    "Fullstack Developer",
                     2000,
-                    // "Freelancer",
-                    // 2000,
+                    "Music Lover",
+                    2000,
                   ]}
                   wrapper="span"
                   speed={65}
@@ -111,7 +112,7 @@ const Home = () => {
               data-aos="fade-up"
               className="flex mt-3 justify-center flex-wrap"
             >
-              <Link href={"https://github.com/munkhbatganabt"} target="_blank">
+              <Link href={"https://github.com/MunbaBataa"} target="_blank">
                 <Button
                   variant={"outline"}
                   size={"sm"}
@@ -119,7 +120,7 @@ const Home = () => {
                 >
                   <GithubIcon className="w-6 px-1" />
                   <p className="font-[500] text-sm tracking-wide">
-                    @munkhbatG
+                    @MunbaBataa
                   </p>
                   <p className=" text-[11px] px-2 text-gray-500 flex pt-1">
                     Github
