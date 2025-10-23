@@ -230,25 +230,59 @@ const Home = () => {
       <p className="text-sm leading-relaxed mb-3">
         Тэр уран зургийг <em>өнгө, гэрэл, мэдрэмжээр</em> илэрхийлдэг байсан бол,
         би өнөө үед түүний үргэлжлэл болж,
-        <strong className="text-sky-600 dark:text-sky-400"> кодоор өнгө, логикоор бүтээл урладаг хүн</strong>.
+        <strong className="text-sky-600 dark:text-sky-400"> код, логикоор бүтээл урладаг хүн</strong>.
       </p>
-      <p className="text-sm leading-relaxed italic text-gray-700 dark:text-gray-300">
-        Миний хувьд программчлал бол бас нэг төрлийн уран зураг —
-        ялгаа нь бий болох зүйл нь &quot;application&quot;,
-        харин зураас нь &quot;syntax&quot; юм.
-      </p>
+        
+      <Image
+        src="/goviin_oroi.jpg"
+        alt="Цэндийн Монгол"
+        width={400}
+        height={250}
+        className="rounded-lg border-2 border-sky-500/30 shadow-lg"
+      />
     </div>
   </div>
 </div>
 
-<p
+
+          {/* ============================== Experience ============================ */}
+
+          <div id="experience" className="flex flex-col pt-[14vh]">
+            <h1
+              data-aos="fade-right"
+              data-aos-anchor-placement="top-bottom"
+              className="text-2xl underline decoration-sky-500 dark:decoration-sky-500/80 underline-offset-[5px] decoration-4 tracking-wide antialiased "
+            >
+              Experience
+            </h1>
+            <div className="my-2 rounded-xl bg">
+              <div className="border-l-8 ">
+                {!Start
+                  ? "loading ! "
+                  : expData.map((exp, index) => (
+                      <div key={index}>
+                        <ExpCard
+                          img={`/Experience${exp.img}`}
+                          companyName={exp.companyName}
+                          role={exp.role}
+                          description={exp.description}
+                          timePeriod={exp.timePeriod}
+                        ></ExpCard>
+                      </div>
+                    ))}
+              </div>
+            </div>
+          </div>
+
+
+{/* <p
   data-aos="fade-up"
   data-aos-delay="200"
   data-aos-anchor-placement="top-bottom"
   className="my-3 tracking-[0.3px]"
 >
   I&apos;m Ganbat Munkhbat, a passionate software engineer who graduated from the Mongolian University of Science and Technology (MUST) in June 2025 with a degree in Software Engineering. With one year of experience as a senior developer, I have a strong background in full-stack development, software architecture, and data analysis.
-</p>
+</p> */}
 
 {/* Strengths & Working Style */}
 <section className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -279,16 +313,22 @@ const Home = () => {
   data-aos-delay="300"
   className="rounded-lg border border-sky-300 dark:border-sky-700 bg-white dark:bg-gray-900 p-6 shadow-md transition-all hover:shadow-lg"
 >
-  <h3 className="text-lg font-bold text-sky-600 dark:text-sky-400 mb-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
+  <h3 className="text-lg font-bold text-sky-600 dark:text-sky-400 mb-4">
+    🤝 Хүмүүстэй харьцах хэлбэр
+  </h3>
   <div className="space-y-3 text-sm text-gray-800 dark:text-gray-200 leading-relaxed">
     <p>
-      Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог. Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
+      Би нээлттэй ярилцаж, санаа бодлоо хуваалцахыг хүсдэг хүн. Сүүлийн жилүүдэд баг хамт олон, шинэ орчин дунд <em className="text-sky-600 dark:text-sky-400">нийгмийн харилцаанд идэвхтэй оролцож</em> суралцаж байна.
     </p>
     <p>
-      Миний хувьд бусдыг <em className="text-sky-600 dark:text-sky-400">&quot;засах&quot;</em> биш, харин <em className="text-sky-600 dark:text-sky-400">&quot;дэмжих&quot;</em> маягаар хамт ажиллах дуртай.
+      Та бүхэн намайг найрсаг, эерэгээр хүлээн авч, хамтран ажиллах уур амьсгал бүрдүүлж байгаад чин сэтгэлээсээ <em className="text-sky-600 dark:text-sky-400">баярлалаа</em>.
+    </p>
+    <p>
+      Миний хувьд бусадтай харилцахдаа <em className="text-sky-600 dark:text-sky-400">сонсох, ойлгох, хамт бүтээх</em> зарчмыг эрхэмлэдэг.
     </p>
   </div>
-  </div>
+</div>
+
 </section>
 {/* Weaknesses Reframed as Strengths */}
 <section className="my-10">
@@ -501,35 +541,6 @@ const Home = () => {
             )}
           </div>
 
-          {/* ============================== Experience ============================ */}
-
-          <div id="experience" className="flex flex-col pt-[14vh]">
-            <h1
-              data-aos="fade-right"
-              data-aos-anchor-placement="top-bottom"
-              className="text-2xl underline decoration-sky-500 dark:decoration-sky-500/80 underline-offset-[5px] decoration-4 tracking-wide antialiased "
-            >
-              Experience
-            </h1>
-            <div className="my-2 rounded-xl bg">
-              <div className="border-l-8 ">
-                {!Start
-                  ? "loading ! "
-                  : expData.map((exp, index) => (
-                      <div key={index}>
-                        <ExpCard
-                          img={`/Experience${exp.img}`}
-                          companyName={exp.companyName}
-                          role={exp.role}
-                          description={exp.description}
-                          timePeriod={exp.timePeriod}
-                        ></ExpCard>
-                      </div>
-                    ))}
-              </div>
-            </div>
-          </div>
-
           {/* ============================== Contact me ============================ */}
 
           <div id="connect" className="flex flex-col mt-8 ">
@@ -616,7 +627,7 @@ const Home = () => {
               .
             </h1>
             <h1 className="mb-6 py-1">
-              © 2024 <b className="font-[700] tracking-[1px]">Munkhbat Ganbat</b>
+              © 2025 <b className="font-[700] tracking-[1px]">Munkhbat Ganbat</b>
               . All rights reserved.
             </h1>
           </div>
