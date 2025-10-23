@@ -194,138 +194,138 @@ const Home = () => {
               About Me
             </h1>
             {/* Grandfather's Legacy Section */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="300"
-              className="my-6 p-6 rounded-xl border border-sky-500/20 bg-gradient-to-br from-sky-50/50 to-transparent dark:from-sky-950/20"
-            >
-              <div className="flex flex-col md:flex-row gap-6 items-start">
-                <div className="flex-shrink-0">
-                  <Image
-                    src="/tsendiin-mongol.jpg"
-                    alt="Цэндийн Монгол"
-                    width={200}
-                    height={250}
-                    className="rounded-lg border-2 border-sky-500/30 shadow-lg"
-                  />
-                  <p className="text-xs text-center mt-2 text-gray-600 dark:text-gray-400">
-                    Цэндийн Монгол (1948-2014)
-                  </p>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold mb-3 text-sky-600 dark:text-sky-400">
-                    🎨 Удам ба уран сэтгэмжийн холбоо
-                  </h3>
-                  <p className="text-sm leading-relaxed mb-3">
-                    <strong>Миний өвөө бол Монголын нэртэй зураач{" "}
-                    <Link
-                      href="https://mn.wikipedia.org/wiki/%D0%A6%D1%8D%D0%BD%D0%B4%D0%B8%D0%B9%D0%BD_%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB"
-                      target="_blank"
-                      className="text-sky-600 dark:text-sky-400 hover:underline"
-                    >
-                      Цэндийн Монгол
-                    </Link>
-                    .</strong>
-                  </p>
-                  <p className="text-sm leading-relaxed mb-3">
-                    Тэр уран зургийг <em>өнгө, гэрэл, мэдрэмжээр</em> илэрхийлдэг байсан бол,
-                    би өнөө үед түүний үргэлжлэл болж,
-                    <strong className="text-sky-600 dark:text-sky-400"> кодоор өнгө, логикоор бүтээл урладаг хүн</strong>.
-                  </p>
-                  <p className="text-sm leading-relaxed italic text-gray-700 dark:text-gray-300">
-                    Миний хувьд программчлал бол бас нэг төрлийн уран зураг —
-                    ялгаа нь бий болох зүйл нь "application",
-                    харин зураас нь "syntax" юм.
-                  </p>
-                </div>
-              </div>
-            </div>
+<div
+  data-aos="fade-up"
+  data-aos-delay="300"
+  className="my-6 p-6 rounded-xl border border-sky-500/20 bg-gradient-to-br from-sky-50/50 to-transparent dark:from-sky-950/20"
+>
+  <div className="flex flex-col md:flex-row gap-6 items-start">
+    <div className="flex-shrink-0">
+      <Image
+        src="/tsendiin-mongol.jpg"
+        alt="Цэндийн Монгол"
+        width={200}
+        height={250}
+        className="rounded-lg border-2 border-sky-500/30 shadow-lg"
+      />
+      <p className="text-xs text-center mt-2 text-gray-600 dark:text-gray-400">
+        Цэндийн Монгол (1948–2014)
+      </p>
+    </div>
+    <div className="flex-1">
+      <h3 className="text-lg font-bold mb-3 text-sky-600 dark:text-sky-400">
+        🎨 Удам ба уран сэтгэмжийн холбоо
+      </h3>
+      <p className="text-sm leading-relaxed mb-3">
+        <strong>Миний өвөө бол Монголын нэртэй зураач{" "}
+          <Link
+            href="https://mn.wikipedia.org/wiki/%D0%A6%D1%8D%D0%BD%D0%B4%D0%B8%D0%B9%D0%BD_%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB"
+            target="_blank"
+            className="text-sky-600 dark:text-sky-400 hover:underline"
+          >
+            Цэндийн Монгол
+          </Link>
+        .</strong>
+      </p>
+      <p className="text-sm leading-relaxed mb-3">
+        Тэр уран зургийг <em>өнгө, гэрэл, мэдрэмжээр</em> илэрхийлдэг байсан бол,
+        би өнөө үед түүний үргэлжлэл болж,
+        <strong className="text-sky-600 dark:text-sky-400"> кодоор өнгө, логикоор бүтээл урладаг хүн</strong>.
+      </p>
+      <p className="text-sm leading-relaxed italic text-gray-700 dark:text-gray-300">
+        Миний хувьд программчлал бол бас нэг төрлийн уран зураг —
+        ялгаа нь бий болох зүйл нь &quot;application&quot;,
+        харин зураас нь &quot;syntax&quot; юм.
+      </p>
+    </div>
+  </div>
+</div>
 
-            <p
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-anchor-placement="top-bottom"
-              className="my-3 tracking-[0.3px] "
-            >
-              I&apos;m Ganbat Munkhbat, a passionate software engineer who graduated from the Mongolian University of Science and Technology (MUST) in June 2025 with a degree in Software Engineering. With one year of experience as a senior developer, I have a strong background in full-stack development, software architecture, and data analysis.
-            </p>
+<p
+  data-aos="fade-up"
+  data-aos-delay="200"
+  data-aos-anchor-placement="top-bottom"
+  className="my-3 tracking-[0.3px]"
+>
+  I&apos;m Ganbat Munkhbat, a passionate software engineer who graduated from the Mongolian University of Science and Technology (MUST) in June 2025 with a degree in Software Engineering. With one year of experience as a senior developer, I have a strong background in full-stack development, software architecture, and data analysis.
+</p>
 
-            {/* Strengths & Working Style */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="400"
-              className="my-6 space-y-4"
-            >
-              <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400">💪 Давуу тал</h3>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-sky-500 mt-1">•</span>
-                  <span><strong>Тэвчээртэй:</strong> Би асуудлыг гүнзгий ойлгож, шийдэл олох хүртлээ ухаж судалдаг.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-sky-500 mt-1">•</span>
-                  <span><strong>Дасан зохицох чадвартай:</strong> Технологи, орчны өөрчлөлтөд хурдан дасан зохицож, үргэлж суралцдаг.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-sky-500 mt-1">•</span>
-                  <span><strong>Нарийн нягт:</strong> Надад код зөвхөн ажиллах бус, цэвэр, ойлгомжтой байх нь чухал.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-sky-500 mt-1">•</span>
-                  <span><strong>Сонирхолтой сэтгэдэг:</strong> Систем хөгжүүлэлтийг би уран бүтээл гэж хардаг.</span>
-                </li>
-              </ul>
+{/* Strengths & Working Style */}
+<div
+  data-aos="fade-up"
+  data-aos-delay="400"
+  className="my-6 space-y-4"
+>
+  <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400">💪 Давуу тал</h3>
+  <ul className="space-y-2 text-sm">
+    <li className="flex items-start gap-2">
+      <span className="text-sky-500 mt-1">•</span>
+      <span><strong>Тэвчээртэй:</strong> Би асуудлыг гүнзгий ойлгож, шийдэл олох хүртлээ ухаж судалдаг.</span>
+    </li>
+    <li className="flex items-start gap-2">
+      <span className="text-sky-500 mt-1">•</span>
+      <span><strong>Дасан зохицох чадвартай:</strong> Технологи, орчны өөрчлөлтөд хурдан дасан зохицож, үргэлж суралцдаг.</span>
+    </li>
+    <li className="flex items-start gap-2">
+      <span className="text-sky-500 mt-1">•</span>
+      <span><strong>Нарийн нягт:</strong> Надад код зөвхөн ажиллах бус, цэвэр, ойлгомжтой байх нь чухал.</span>
+    </li>
+    <li className="flex items-start gap-2">
+      <span className="text-sky-500 mt-1">•</span>
+      <span><strong>Сонирхолтой сэтгэдэг:</strong> Систем хөгжүүлэлтийг би уран бүтээл гэж хардаг.</span>
+    </li>
+  </ul>
 
-              <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400 pt-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
-              <p className="text-sm leading-relaxed">
-                Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог.
-                Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
-                Миний хувьд бусдыг <em>&quot;засах&quot;</em> биш, харин <em>&quot;дэмжих&quot;</em> маягаар хамт ажиллах дуртай.
-              </p>
-              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">
-                → Introvert энерги + Team-oriented сэтгэлтэй developer.
-              </p>
-            </div>
+  <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400 pt-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
+  <p className="text-sm leading-relaxed">
+    Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог.
+    Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
+    Миний хувьд бусдыг <em>&quot;засах&quot;</em> биш, харин <em>&quot;дэмжих&quot;</em> маягаар хамт ажиллах дуртай.
+  </p>
+  <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">
+    → Introvert энерги + Team-oriented сэтгэлтэй developer.
+  </p>
+</div>
 
-            {/* Personality Traits with Tooltips */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500"
-              className="my-6"
-            >
-              <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400 mb-4">😄 Хувийн зан чанар</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-                  <Coffee className="w-6 h-6 mb-2 text-sky-500" />
-                  <p className="text-xs font-semibold">Coffee level</p>
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
-                    Critical dependency.
-                  </div>
-                </div>
-                <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-                  <Music className="w-6 h-6 mb-2 text-sky-500" />
-                  <p className="text-xs font-semibold">Music</p>
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
-                    Helps me debug life.
-                  </div>
-                </div>
-                <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-                  <MessageCircle className="w-6 h-6 mb-2 text-sky-500" />
-                  <p className="text-xs font-semibold">Communication</p>
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
-                    Quiet thinker, clear talker.
-                  </div>
-                </div>
-                <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-                  <Code2 className="w-6 h-6 mb-2 text-sky-500" />
-                  <p className="text-xs font-semibold">Work style</p>
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
-                    Code like an artist, plan like an engineer.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
+{/* Personality Traits with Tooltips */}
+<div
+  data-aos="fade-up"
+  data-aos-delay="500"
+  className="my-6"
+>
+  <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400 mb-4">😄 Хувийн зан чанар</h3>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
+      <Coffee className="w-6 h-6 mb-2 text-sky-500" />
+      <p className="text-xs font-semibold">Coffee level</p>
+      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
+        Critical dependency.
+      </div>
+    </div>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
+      <Music className="w-6 h-6 mb-2 text-sky-500" />
+      <p className="text-xs font-semibold">Music</p>
+      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
+        Helps me debug life.
+      </div>
+    </div>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
+      <MessageCircle className="w-6 h-6 mb-2 text-sky-500" />
+      <p className="text-xs font-semibold">Communication</p>
+      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
+        Quiet thinker, clear talker.
+      </div>
+    </div>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
+      <Code2 className="w-6 h-6 mb-2 text-sky-500" />
+      <p className="text-xs font-semibold">Work style</p>
+      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
+        Code like an artist, plan like an engineer.
+      </div>
+    </div>
+  </div>
+</div>
+<div
               data-aos="fade-left"
               data-aos-anchor-placement="top-bottom"
               className="flex antialiased justify-end text-sky-600 dark:text-sky-500 relative font-bold"
