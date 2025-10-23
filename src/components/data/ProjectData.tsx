@@ -2,15 +2,15 @@ const projects = [
     {
         heading:"Portfolio website - template",
         summary:"A customizable, responsive portfolio template designed for individuals to showcase their work professionally. It offers an elegant, user-friendly interface that can be easily personalized, with sections for introduction, skills, about me, projects, experience and contact information. Ideal for developers, designers, and creatives.",
-        code:"https://github.com/ShiveshNandan/personal_website",
-        link:"https://shiveshnandan.vercel.app",
+        code:"https://github.com/MunbaBataa/portfolio",
+        link:"https://munkhbattomaganbat.vercel.app",
         img:"Portfolio.png",
         tech: ["nextJS","TypeScript","Tailwind","Shadcn"]
     },
     {
         heading:"Make engineering easy",
         summary:"A comprehensive educational website tailored for engineering students, featuring personalized recommendations for subjects, including YouTube playlists, recommended books, previous year question papers (PYQs), and additional resources.",
-        code:"https://github.com/ShiveshNandan/MakeEngineeringEasy",
+        code:"https://github.com/MunbaBataa/MakeEngineeringEasy",
         link:"https://make-engineering-easy.vercel.app",
         img:"MakeEasy.png",
         tech: ["nextJS","TypeScript","Tailwind","Shadcn","NodeJS","MongoDB","CSS"]
@@ -18,7 +18,7 @@ const projects = [
     {
         heading:"JWT-Authentication-app",
         summary:`This Node.js and Express.js authentication system uses JWT for secure sessions, with features like user registration, login, email verification, and password recovery via Gmail SMTP. It is scalable, reliable, and easy to deploy on Vercel.`,
-        code:"https://github.com/ShiveshNandan/JWT-authenticatify",
+        code:"https://github.com/MunbaBataa/JWT-authenticatify",
         link:"https://jwt-authenticatify.vercel.app/",
         img:"JWT-Auth.png",
         tech: ["NodeJS"]
@@ -26,15 +26,15 @@ const projects = [
     {
         heading:"Music system",
         summary:"Developed an interactive music system with features for playing, pausing, and skipping tracks. Enhanced user experience through intuitive design and responsive controls. Utilized HTML, CSS, and JavaScript to create a visually appealing and functional audio interface.",
-        code:"https://github.com/ShiveshNandan/Music_sys",
-        link:"https://shiveshnandan.github.io/Music_sys/",
+        code:"https://github.com/MunbaBataa//Music_sys",
+        link:"https://MunbaBataa.github.io/Music_sys/",
         img:"music.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
     },
     {
         heading:"ToDo list",
         summary:"Developed a to-do list website with features for creating and managing tasks, including night mode and light mode options. Enhanced user experience through intuitive design and responsive functionality.",
-        code:"https://github.com/ShiveshNandan/TodoWithBackend",
+        code:"https://github.com/MunbaBataa/TodoWithBackend",
         link:"https://todo-with-features.vercel.app/",
         img:"Todo.png",
         tech: ["ReactJS","NodeJS", "ExpressJS", "JavaScript" , "SASS"]
@@ -42,7 +42,7 @@ const projects = [
     {
         heading:"Tik-Tak-Toe game",
         summary:"Tic Tac Toe (also known as “Xs and Os”) is a classic two-player board game played on a 3x3 grid. The objective is to form a line of three matching symbols (either X or O) horizontally, vertically, or diagonally.",
-        code:"https://github.com/ShiveshNandan/TikTacToe",
+        code:"https://github.com/MunbaBataa/TikTacToe",
         link:"https://shiveshnandan.github.io/TikTacToe/",
         img:"Tiktactoe.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
@@ -66,7 +66,7 @@ const projects = [
     {
         heading:"Car website",
         summary:"An interesting website where you can search for the different cars and their features.",
-        code:"https://github.com/ShiveshNandan/carWebsite",
+        code:"https://github.com/MunbaBataa/carWebsite",
         link:"https://carshow-room.vercel.app/",
         img:"Car.png",
         tech: ["nextJS","Tailwind","TypeScript","NodeJS"]
@@ -74,56 +74,56 @@ const projects = [
     {
         heading:"Memory game flip card",
         summary:"Developed an interactive memory game with flip card mechanics, where players match pairs of cards. Enhanced user engagement through intuitive design and responsive gameplay. Utilized HTML, CSS, and JavaScript to create a visually appealing and functional game.",
-        code:"https://github.com/ShiveshNandan/memory-game-flip-card",
-        link:"https://shiveshnandan.github.io/memory-game-flip-card/",
+        code:"https://github.com/MunbaBataa/memory-game-flip-card",
+        link:"https://MunbaBataa.github.io/memory-game-flip-card/",
         img:"FlipGame.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery","Tailwind"]
     },
     {
         heading:"Personal website",
         summary:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem atque accusamus dolorem! Omnis, vitae nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, architecto.",
-        code:"https://github.com/ShiveshNandan/personal_website",
-        link:"https://shiveshnandan.github.io/personal_website/",
+        code:"https://github.com/MunbaBataa//personal_website",
+        link:"https://MunbaBataa/.github.io/personal_website/",
         img:"personal.png",
         tech: ["ReactJS","CSS", "JavaScript","Bootstrap"]
     },
     {
         heading:"Link Tree",
         summary:"Developed a personalized Linktree, streamlining access to various social media profiles and important links. Enhanced user navigation with intuitive design and responsive layout. Utilized HTML, CSS, and JavaScript to create a visually appealing and functional interface.",
-        code:"https://github.com/ShiveshNandan/LinkTree",
-        link:"https://shiveshnandan.github.io/LinkTree/",
+        code:"https://github.com/MunbaBataa//LinkTree",
+        link:"https://MunbaBataa/.github.io/LinkTree/",
         img:"link tree.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
     },
     {
         heading:"Analog clock",
         summary:"Developed a functional analog watch application displaying real-time updates. Enhanced user experience with intuitive design and smooth, responsive movements. Utilized HTML, CSS, and JavaScript to create a visually appealing and accurate timekeeping tool.",
-        code:"https://github.com/ShiveshNandan/clock",
-        link:"https://shiveshnandan.github.io/clock/",
+        code:"https://github.com/MunbaBataa/clock",
+        link:"https://MunbaBataa.github.io/clock/",
         img:"clock.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
     },
     {
         heading:"Dice game",
         summary:"Developed an interactive dice game where players refresh the page to roll two dice, with the higher number determining the winner. Enhanced user experience through intuitive design and responsive gameplay. Utilized HTML, CSS, and JavaScript to create a visually appealing and functional game.",
-        code:"https://github.com/ShiveshNandan/DiceGame",
-        link:"https://shiveshnandan.github.io/DiceGame/",
+        code:"https://github.com/MunbaBataa/DiceGame",
+        link:"https://MunbaBataa.github.io/DiceGame/",
         img:"dice.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
     },
     {
         heading:"Hotstar clone",
         summary:"Developed a Hotstar clone, replicating the streaming platform’s user interface. Utilized HTML, CSS, and JavaScript to create a responsive website. Demonstrated web development skills and attention to detail.",
-        code:"https://github.com/ShiveshNandan/Hotstar-clone",
-        link:"https://shiveshnandan.github.io/Hotstar-clone/",
+        code:"https://github.com/MunbaBataa/Hotstar-clone",
+        link:"https://MunbaBataa.github.io/Hotstar-clone/",
         img:"Hotstar.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
     },
     {
         heading:"Restaurant website",
         summary:"Developed a dynamic restaurant website with a responsive design, enhancing online ordering and reservation systems. Improved customer engagement and satisfaction through modern UI/UX principles and seamless navigation.",
-        code:"https://github.com/ShiveshNandan/resturant_website",
-        link:"https://shiveshnandan.github.io/resturant_website/",
+        code:"https://github.com/MunbaBataa/resturant_website",
+        link:"https://MunbaBataa.github.io/resturant_website/",
         img:"Rest.png",
         tech: ["HTML" ,"CSS", "JavaScript", "jQuery"]
     },
