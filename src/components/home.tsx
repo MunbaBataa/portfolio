@@ -251,8 +251,6 @@ const Home = () => {
 </p>
 
 {/* Strengths & Working Style */}
-{/* Strengths & Working Style */}
-{/* Strengths & Working Style */}
 <section className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6">
   {/* Давуу тал */}
   <div
@@ -271,30 +269,25 @@ const Home = () => {
       <li>
         <strong className="text-sky-500">Нарийн нягт:</strong> Надад код зөвхөн ажиллах бус, цэвэр, ойлгомжтой байх нь чухал.
       </li>
-      <li>
-        <strong className="text-sky-500">Сонирхолтой сэтгэдэг:</strong> Систем хөгжүүлэлтийг би уран бүтээл гэж хардаг.
-      </li>
     </ul>
   </div>
 
   {/* Хүмүүстэй харьцах хэлбэр */}
-  <div
-    data-aos="fade-left"
-    data-aos-delay="300"
-    className="rounded-lg border border-sky-300 dark:border-sky-700 bg-white dark:bg-gray-900 p-6 shadow-md transition-all hover:shadow-lg"
-  >
-    <h3 className="text-lg font-bold text-sky-600 dark:text-sky-400 mb-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
-    <div className="space-y-3 text-sm text-gray-800 dark:text-gray-200 leading-relaxed">
-      <p>
-        Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог. Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
-      </p>
-      <p>
-        Миний хувьд бусдыг <em className="text-sky-600 dark:text-sky-400">"засах"</em> биш, харин <em className="text-sky-600 dark:text-sky-400">"дэмжих"</em> маягаар хамт ажиллах дуртай.
-      </p>
-    </div>
-    <p className="mt-3 text-sm font-semibold text-sky-600 dark:text-sky-400">
-      → Introvert энерги + Team-oriented сэтгэлтэй developer.
+  {/* Хүмүүстэй харьцах хэлбэр */}
+<div
+  data-aos="fade-left"
+  data-aos-delay="300"
+  className="rounded-lg border border-sky-300 dark:border-sky-700 bg-white dark:bg-gray-900 p-6 shadow-md transition-all hover:shadow-lg"
+>
+  <h3 className="text-lg font-bold text-sky-600 dark:text-sky-400 mb-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
+  <div className="space-y-3 text-sm text-gray-800 dark:text-gray-200 leading-relaxed">
+    <p>
+      Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог. Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
     </p>
+    <p>
+      Миний хувьд бусдыг <em className="text-sky-600 dark:text-sky-400">&quot;засах&quot;</em> биш, харин <em className="text-sky-600 dark:text-sky-400">&quot;дэмжих&quot;</em> маягаар хамт ажиллах дуртай.
+    </p>
+  </div>
   </div>
 </section>
 {/* Weaknesses Reframed as Strengths */}
