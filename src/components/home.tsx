@@ -195,14 +195,14 @@ const Home = () => {
               data-aos-anchor-placement="top-bottom"
               className="flex antialiased justify-end text-sky-600 dark:text-sky-500 relative font-bold"
             >
-              <Button
+              {/* <Button
                 onClick={openModal}
                 variant={"outline"}
                 className="text-sky-600 dark:text-sky-500 font-bold w-fit"
               >
                 {" "}
                 Read More <ArrowUpRightFromSquare className="mx-2 h-4 w-4" />
-              </Button>
+              </Button> */}
             </div>
 
             {isModalOpen && (
