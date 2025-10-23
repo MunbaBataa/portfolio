@@ -251,42 +251,96 @@ const Home = () => {
 </p>
 
 {/* Strengths & Working Style */}
-<div
-  data-aos="fade-up"
-  data-aos-delay="400"
-  className="my-6 space-y-4"
->
-  <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400">💪 Давуу тал</h3>
-  <ul className="space-y-2 text-sm">
-    <li className="flex items-start gap-2">
-      <span className="text-sky-500 mt-1">•</span>
-      <span><strong>Тэвчээртэй:</strong> Би асуудлыг гүнзгий ойлгож, шийдэл олох хүртлээ ухаж судалдаг.</span>
-    </li>
-    <li className="flex items-start gap-2">
-      <span className="text-sky-500 mt-1">•</span>
-      <span><strong>Дасан зохицох чадвартай:</strong> Технологи, орчны өөрчлөлтөд хурдан дасан зохицож, үргэлж суралцдаг.</span>
-    </li>
-    <li className="flex items-start gap-2">
-      <span className="text-sky-500 mt-1">•</span>
-      <span><strong>Нарийн нягт:</strong> Надад код зөвхөн ажиллах бус, цэвэр, ойлгомжтой байх нь чухал.</span>
-    </li>
-    <li className="flex items-start gap-2">
-      <span className="text-sky-500 mt-1">•</span>
-      <span><strong>Сонирхолтой сэтгэдэг:</strong> Систем хөгжүүлэлтийг би уран бүтээл гэж хардаг.</span>
-    </li>
-  </ul>
+{/* Strengths & Working Style */}
+{/* Strengths & Working Style */}
+<section className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+  {/* Давуу тал */}
+  <div
+    data-aos="fade-right"
+    data-aos-delay="300"
+    className="rounded-lg border border-sky-300 dark:border-sky-700 bg-white dark:bg-gray-900 p-6 shadow-md transition-all hover:shadow-lg"
+  >
+    <h3 className="text-lg font-bold text-sky-600 dark:text-sky-400 mb-4">💪 Давуу тал</h3>
+    <ul className="space-y-3 text-sm text-gray-800 dark:text-gray-200">
+      <li>
+        <strong className="text-sky-500">Тэвчээртэй:</strong> Би асуудлыг гүнзгий ойлгож, шийдэл олох хүртлээ ухаж судалдаг.
+      </li>
+      <li>
+        <strong className="text-sky-500">Дасан зохицох чадвартай:</strong> Технологи, орчны өөрчлөлтөд хурдан дасан зохицож, үргэлж суралцдаг.
+      </li>
+      <li>
+        <strong className="text-sky-500">Нарийн нягт:</strong> Надад код зөвхөн ажиллах бус, цэвэр, ойлгомжтой байх нь чухал.
+      </li>
+      <li>
+        <strong className="text-sky-500">Сонирхолтой сэтгэдэг:</strong> Систем хөгжүүлэлтийг би уран бүтээл гэж хардаг.
+      </li>
+    </ul>
+  </div>
 
-  <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400 pt-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
-  <p className="text-sm leading-relaxed">
-    Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог.
-    Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
-    Миний хувьд бусдыг <em>&quot;засах&quot;</em> биш, харин <em>&quot;дэмжих&quot;</em> маягаар хамт ажиллах дуртай.
-  </p>
-  <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">
-    → Introvert энерги + Team-oriented сэтгэлтэй developer.
-  </p>
-</div>
+  {/* Хүмүүстэй харьцах хэлбэр */}
+  <div
+    data-aos="fade-left"
+    data-aos-delay="300"
+    className="rounded-lg border border-sky-300 dark:border-sky-700 bg-white dark:bg-gray-900 p-6 shadow-md transition-all hover:shadow-lg"
+  >
+    <h3 className="text-lg font-bold text-sky-600 dark:text-sky-400 mb-4">🤝 Хүмүүстэй харьцах хэлбэр</h3>
+    <div className="space-y-3 text-sm text-gray-800 dark:text-gray-200 leading-relaxed">
+      <p>
+        Би хүмүүстэй ажиллахдаа дуу багатай ч анхааралтай сонсдог. Хүмүүс миний дэргэд санаа бодлоо тайван, итгэлтэй илэрхийлж чаддаг байхыг хүсдэг.
+      </p>
+      <p>
+        Миний хувьд бусдыг <em className="text-sky-600 dark:text-sky-400">"засах"</em> биш, харин <em className="text-sky-600 dark:text-sky-400">"дэмжих"</em> маягаар хамт ажиллах дуртай.
+      </p>
+    </div>
+    <p className="mt-3 text-sm font-semibold text-sky-600 dark:text-sky-400">
+      → Introvert энерги + Team-oriented сэтгэлтэй developer.
+    </p>
+  </div>
+</section>
+{/* Weaknesses Reframed as Strengths */}
+<section className="my-10">
+  <h3
+    data-aos="fade-up"
+    data-aos-delay="200"
+    className="text-xl font-bold text-sky-600 dark:text-sky-400 mb-6 flex items-center gap-2"
+  >
+    ⚖️ 4. Сул тал
+  </h3>
 
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {[
+      {
+        title: "Хэт төгс зүйл хийх гээд удах",
+        positive: "Төслийн чанарыг илүүд үздэг. Хугацаа ба чанарыг тэнцвэржүүлэх дээр ажиллаж байна.",
+      },
+      {
+        title: "Хааяа бусдаас тусламж гуйхгүй",
+        positive: "Өөрөө шийдэх дуртай. Гэхдээ одоо багийн хүчийг илүү үнэлж сурах шатандаа явж байна.",
+      },
+      {
+        title: "Хэт төвлөрөөд орчныг мартдаг",
+        positive: "Deep work mode-д ордог — гэхдээ сүүлийн үед time management-д илүү анхаарч байгаа.",
+      },
+    ].map((item, idx) => (
+      <div
+        key={idx}
+        data-aos="fade-right"
+        data-aos-delay={400 + idx * 100}
+        className="border border-sky-200 dark:border-sky-700 rounded-lg bg-white dark:bg-gray-900 p-5 shadow-sm hover:shadow-md transition-all"
+      >
+        <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-2">
+          🌀 {item.title}
+        </h4>
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          <span className="text-sky-600 dark:text-sky-400 font-medium">→</span> {item.positive}
+        </p>
+      </div>
+    ))}
+  </div>
+</section>
+
+
+{/* Personality Traits with Tooltips */}
 {/* Personality Traits with Tooltips */}
 <div
   data-aos="fade-up"
@@ -295,36 +349,37 @@ const Home = () => {
 >
   <h3 className="text-lg font-semibold text-sky-600 dark:text-sky-400 mb-4">😄 Хувийн зан чанар</h3>
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-      <Coffee className="w-6 h-6 mb-2 text-sky-500" />
-      <p className="text-xs font-semibold">Coffee level</p>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 hover:scale-105 transition-all duration-300 ease-in-out cursor-help shadow-sm hover:shadow-md bg-white/60 dark:bg-sky-900/30 backdrop-blur">
+      <Coffee className="w-6 h-6 mb-2 text-sky-500 group-hover:animate-bounce transition-all duration-300" />
+      <p className="text-xs font-semibold text-gray-700 dark:text-gray-200">Coffee level</p>
       <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
         Critical dependency.
       </div>
     </div>
-    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-      <Music className="w-6 h-6 mb-2 text-sky-500" />
-      <p className="text-xs font-semibold">Music</p>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 hover:scale-105 transition-all duration-300 ease-in-out cursor-help shadow-sm hover:shadow-md bg-white/60 dark:bg-sky-900/30 backdrop-blur">
+      <Music className="w-6 h-6 mb-2 text-sky-500 group-hover:animate-bounce transition-all duration-300" />
+      <p className="text-xs font-semibold text-gray-700 dark:text-gray-200">Music</p>
       <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
         Helps me debug life.
       </div>
     </div>
-    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-      <MessageCircle className="w-6 h-6 mb-2 text-sky-500" />
-      <p className="text-xs font-semibold">Communication</p>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 hover:scale-105 transition-all duration-300 ease-in-out cursor-help shadow-sm hover:shadow-md bg-white/60 dark:bg-sky-900/30 backdrop-blur">
+      <MessageCircle className="w-6 h-6 mb-2 text-sky-500 group-hover:animate-bounce transition-all duration-300" />
+      <p className="text-xs font-semibold text-gray-700 dark:text-gray-200">Communication</p>
       <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
         Quiet thinker, clear talker.
       </div>
     </div>
-    <div className="group relative p-4 border rounded-lg hover:border-sky-500 transition-all cursor-help">
-      <Code2 className="w-6 h-6 mb-2 text-sky-500" />
-      <p className="text-xs font-semibold">Work style</p>
+    <div className="group relative p-4 border rounded-lg hover:border-sky-500 hover:scale-105 transition-all duration-300 ease-in-out cursor-help shadow-sm hover:shadow-md bg-white/60 dark:bg-sky-900/30 backdrop-blur">
+      <Code2 className="w-6 h-6 mb-2 text-sky-500 group-hover:animate-bounce transition-all duration-300" />
+      <p className="text-xs font-semibold text-gray-700 dark:text-gray-200">Work style</p>
       <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
         Code like an artist, plan like an engineer.
       </div>
     </div>
   </div>
 </div>
+
 <div
               data-aos="fade-left"
               data-aos-anchor-placement="top-bottom"
