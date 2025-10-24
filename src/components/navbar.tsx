@@ -111,7 +111,7 @@ const Navbar = () => {
                   Projects
                 </h1>
               </Link>
-              <Link
+              {/* <Link
                 to="experience"
                 smooth={true}
                 duration={500}
@@ -120,7 +120,7 @@ const Navbar = () => {
                 <h1 onClick={() => {setselected("experience")}} className={`${selected === "experience" ? "text-sky-600 dark:text-sky-500" : ""} ${hoverEff}`}>
                   Experience
                 </h1>
-              </Link>
+              </Link> */}
               <Link
                 to="connect"
                 smooth={true}

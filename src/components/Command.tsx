@@ -68,7 +68,7 @@ const Command = ({ onClose }: any) => {
                 <span className={`${itemProp}`}>Projects</span>
               </p>
             </Scroll>
-            <Scroll
+            {/* <Scroll
               to="experience"
               smooth={true}
               duration={500}
@@ -78,7 +78,7 @@ const Command = ({ onClose }: any) => {
                 <Glasses />
                 <span className={`${itemProp}`}>Experience</span>
               </p>
-            </Scroll>
+            </Scroll> */}
             <Scroll
               to="connect"
               smooth={true}
@@ -96,14 +96,14 @@ const Command = ({ onClose }: any) => {
         <div className="flex flex-col w-full">
           <h1 className="text-xs mt-5 mx-2">Socials</h1>
           <div className="flex flex-col p-1 border-b border-gray-500 w-full">
-            <Link href={"https://github.com/shiveshnandan"} target="_blank">
+            <Link href={"https://github.com/MunbaBataa"} target="_blank">
               <p onClick={onClose} className={`${hoverProp}`}>
                 <LinkIcon />
                 <span className={`${itemProp}`}>Github</span>
               </p>
             </Link>
             <Link
-              href={"https://github.com/ShiveshNandan/personal_website"}
+              href={"https://github.com/MunbaBataa/portfolio"}
               target="_blank"
             >
               <p onClick={onClose} className={`${hoverProp}`}>
