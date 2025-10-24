@@ -34,6 +34,8 @@ const Home = () => {
   const [Start, setStart] = useState(false);
   const [isModalOpen, setModalOpen] = useState(false);
   const [isModalOpen2, setModalOpen2] = useState(false);
+  const [showQRModal, setShowQRModal] = useState(false);
+
   const openModal = () => setModalOpen(true);
   const openModal2 = () => setModalOpen2(true);
   const closeModal = () => setModalOpen(false);
@@ -68,6 +70,7 @@ const Home = () => {
     };
   }, [isModalOpen, isModalOpen2]);
 
+
   return (
     <div className="px-8 overflow-hidden lg:w-[750px] lg:m-auto z-[-1]">
       <AnimatedBackground />
@@ -76,111 +79,92 @@ const Home = () => {
       ) : (
         <>
           {/* ============================== Introduction ============================ */}
-          <div id="home" className="flex flex-col pt-[120px]">
-            <Image
-              data-aos="fade-down"
-              // src={`/photo-${theme === "light" ? "light" : "dark"}.jpg`}
-              src={`/shiveshnandan.jpg`}
-              height={10000}
-              width={10000}
-              alt={"Profile Photo"}
-              className="border rounded-full w-[90px] mb-8 border-[#333] dark:border-white"
-            ></Image>
-            <div data-aos="fade-right" className="">
-              <h1 className="text-3xl font-[700] ">Munkhbat Ganbat</h1>
-              <p className="mt-1">
-                <TypeAnimation
-                  sequence={[
-                    "Engineer 🛠",
-                    2000,
-                    "Fullstack Developer 💻",
-                    2000,
-                    "Music Lover 🎸",
-                    2000,
-                    "Coffee monster ☕",
-                    2000,
-                  ]}
-                  wrapper="span"
-                  speed={65}
-                  deletionSpeed={85}
-                  repeat={Infinity}
-                />
-              </p>
-            </div>
-            <h1
-              data-aos="fade-up"
-              className=" pt-6 text-sm text-[#333] dark:text-[#d8d8d8] leading-[21px] "
-            >
-              Код бичиж байхдаа бүрэн амьдаар мэдэрдэг,
-            </h1>
-            <h1
-              data-aos="fade-up"
-              className=" pt-3 text-sm text-[#333] dark:text-[#d8d8d8] leading-[21px]  "
-            > 
-              Нөгөөх нь ажиллахгүй бол бүрэн сүнсгүй болдог. 👻
-            </h1>
-            <div
-              data-aos="fade-up"
-              className="flex mt-3 justify-center flex-wrap"
-            >
-              <Link href={"https://github.com/MunbaBataa"} target="_blank">
-                <Button
-                  variant={"outline"}
-                  size={"sm"}
-                  className="dark:bg-[#333] py-4 mx-2 my-1"
-                >
-                  <GithubIcon className="w-6 px-1" />
-                  <p className="font-[500] text-sm tracking-wide">
-                    @MunbaBataa
-                  </p>
-                  <p className=" text-[11px] px-2 text-gray-500 flex pt-1">
-                    Github
-                  </p>
-                  <ArrowUpRightFromSquare className="h-3 w-3 text-gray-500" />
-                </Button>
-              </Link>
-              <Link
-                href={"https://linkedin.com/in/munkhbatG"}
-                target="_blank"
-              >
-                <Button
-                  variant={"outline"}
-                  size={"sm"}
-                  className="dark:bg-[#333] py-4 mx-2 my-1"
-                >
-                  <LinkedinIcon className="w-6 px-1" />
-                  <p className="font-[500] text-sm tracking-wide">
-                    @munkhbatG
-                  </p>
-                  <p className=" text-[11px] px-2 text-gray-500 flex pt-1">
-                    Linkedin
-                  </p>
-                  <ArrowUpRightFromSquare className="h-3 w-3 text-gray-500" />
-                </Button>
-              </Link>
-              <Link
-                href={
-                  "https://drive.google.com/file/"
-                }
-                target="_blank"
-              >
-                <Button
-                  variant={"outline"}
-                  size={"sm"}
-                  className="dark:bg-[#333] py-4 mx-2 my-1"
-                >
-                  <NotebookTextIcon className="w-6 px-1" />
-                  <p className="font-[500] text-sm tracking-wide">
-                    Munkhbat Ganbat
-                  </p>
-                  <p className=" text-[11px] px-2 text-gray-500 flex pt-1">
-                    Resume
-                  </p>
-                  <ArrowUpRightFromSquare className="h-3 w-3 text-gray-500" />
-                </Button>
-              </Link>
-            </div>
-          </div>
+          <div id="home" className="flex flex-col pt-[120px] md:flex-row md:items-start md:gap-8">
+  {/* QR Image on the left */}
+  
+
+  {/* Main content on the right */}
+  <div className="flex flex-col items-center md:items-start">
+    <Image
+      data-aos="fade-down"
+      src={`/shiveshnandan.jpg`}
+      height={10000}
+      width={10000}
+      alt={"Profile Photo"}
+      className="border rounded-full w-[90px] mb-8 border-[#333] dark:border-white"
+    />
+    <div data-aos="fade-right">
+      <h1 className="text-3xl font-[700]">Munkhbat Ganbat</h1>
+      <p className="mt-1">
+        <TypeAnimation
+          sequence={[
+            "Engineer 🛠",
+            2000,
+            "Fullstack Developer 💻",
+            2000,
+            "Music Lover 🎸",
+            2000,
+            "Coffee monster ☕",
+            2000,
+          ]}
+          wrapper="span"
+          speed={65}
+          deletionSpeed={85}
+          repeat={Infinity}
+        />
+      </p>
+    </div>
+    <h1
+      data-aos="fade-up"
+      className="pt-6 text-sm text-[#333] dark:text-[#d8d8d8] leading-[21px]"
+    >
+      Код бичиж байхдаа бүрэн амьдаар мэдэрдэг,
+    </h1>
+    <h1
+      data-aos="fade-up"
+      className="pt-3 text-sm text-[#333] dark:text-[#d8d8d8] leading-[21px]"
+    >
+      Нөгөөх нь ажиллахгүй бол бүрэн сүнсгүй болдог. 👻
+    </h1>
+    {/* Social Buttons */}
+    <div data-aos="fade-up" className="flex mt-3 justify-center flex-wrap">
+      {/* ... your existing social buttons ... */}
+    </div>
+  </div>
+    <div className="hidden md:flex justify-center">
+  <img
+    src="/qr.png"
+    alt="QR Code"
+    width={170}
+    height={170}
+    className="cursor-pointer transition-transform duration-300 hover:scale-125"
+    onClick={() => setShowQRModal(true)}
+  />
+</div>
+{showQRModal && (
+  <div
+    className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 transition-opacity duration-300"
+    onClick={() => setShowQRModal(false)}
+  >
+    <div
+      className="bg-white p-4 rounded shadow-lg"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <img
+        src="/qr.png"
+        alt="QR Code Enlarged"
+        width={300}
+        height={300}
+        className="rounded"
+      />
+    </div>
+  </div>
+)}
+
+
+
+</div>
+
 
           {/* ============================== About me ============================ */}
 
@@ -337,7 +321,7 @@ const Home = () => {
     data-aos-delay="200"
     className="text-xl font-bold text-sky-600 dark:text-sky-400 mb-6 flex items-center gap-2"
   >
-    ⚖️ 4. Сул тал
+    ⚖️ Сул тал
   </h3>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -574,7 +558,7 @@ const Home = () => {
                     <InstagramIcon />
                   </Button>
                 </Link>
-                <Link href={"https://github.com/munkhbatG"}>
+                <Link href={"https://github.com/MunbaBataa"}>
                   <Button
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
